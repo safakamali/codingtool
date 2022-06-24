@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="static/style.css">
+        <title>کدینگ</title>
+    </head>
+    <body dir="rtl">
+        <form action="createwidget" method="POST">
+            <p>
+            <b>ابزار: </b><select name="widget">
+                <option value="label">برچسب</option>
+                <option value="button">دکمه</option>
+                <option value="textbox">کادر متنی</option>
+                <option value="submitbutton">دکمه ی تایید </option>
+                <option value="resetbutton">دکمه ی تنظیم مجدد</option>
+                <option value="email">ایمیل</option>
+                <option value="file">فایل</option>
+            </select>
+            </p>
+            <p>
+            <label>
+                <b>مقدار: </b><input type="text" name="value" class="textbox">
+            </label>
+            </p>
+            <p>
+                <b> نام ابزار: </b><input type="text" name="name" class="textbox">
+            </p>
+            <p>
+                <b>شناسه (id): </b><input type="text" name="id" class="textbox">
+            </p>
+            <p>
+                <b>غیر فعال:</b> <input type="checkbox" name="disabled" class="checkbox">
+            </p>
+            <p>
+                <b>لینک (برای برچسب و دکمه):</b> <input type="text" name="link" class="textbox">
+            </p>
+            <p>
+                <input type="submit" value="ساختن ابزار">
+            </p>
+        </form>
+    </body>
+</html>

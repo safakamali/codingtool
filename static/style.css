@@ -1,0 +1,18 @@
+body, h1,h2,h3,h4,h5,h6, label,input, select {
+    font-family: Tahoma;
+}
+
+.textbox {
+    padding:10px;
+    background:#FFF;
+    border: 1px solid #ddd;
+    border-radius: 0 5px 5px 0;
+    width: 300px;
+}
+select {
+    padding:10px;
+    background:#FFF;
+    border: 1px solid #ddd;
+    /* border-radius: 0 5px 5px 0; */
+    width: 300px;
+}
